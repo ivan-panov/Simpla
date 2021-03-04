@@ -25,6 +25,7 @@ class GroupAdmin extends Simpla
 	                }
 	                $group = $this->users->get_group(intval($group->id));
 	            }
+		}
 		else
 		{
 			$id = $this->request->get('id', 'integer');
